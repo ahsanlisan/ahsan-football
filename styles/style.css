@@ -1,49 +1,47 @@
-
-
 /* -----Gooogle Fonts --------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
 }
 
+
 /* ⚠️ Start Header Area */
-.header_area{
+
+.header_area {
     display: flex;
     background-color: #2D25A0;
     align-items: center;
     justify-content: center;
-    height:577px;
-    width:100%;
-
+    height: 577px;
+    width: 100%;
 }
-.intro-text{
-    
+
+.intro-text {
     width: 485px;
-     
-
 }
-.intro-text h1{
-    
-   font-weight: 700;
-   font-size:64px;
-   line-height: 80px; 
-   color: aliceblue;
 
+.intro-text h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: aliceblue;
 }
-.intro-text a{
+
+.intro-text a {
     text-decoration: none;
     color: white;
     background-color: #E02C6D;
-    padding:10px 24px 10px 24px;
-    width:168px;
-    height:44px;
- 
- }
- 
- /* Animating Hover effects on button Start ⚠️*/
+    padding: 10px 24px 10px 24px;
+    width: 168px;
+    height: 44px;
+}
+
+
+/* Animating Hover effects on button Start ⚠️*/
+
 .btn {
     width: 220px;
     height: 50px;
@@ -56,12 +54,13 @@ body{
     z-index: 0;
     border-radius: 10px;
 }
+
 .btn:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
     top: -2px;
-    left:-2px;
+    left: -2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -72,15 +71,19 @@ body{
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
+
 .btn:active {
     color: #000
 }
+
 .btn:active:after {
     background: transparent;
 }
+
 .btn:hover:before {
     opacity: 1;
 }
+
 .btn:after {
     z-index: -1;
     content: '';
@@ -92,117 +95,145 @@ body{
     top: 0;
     border-radius: 10px;
 }
+
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
 }
+
+
 /* Animating Hover Button End ❤️*/
- 
-.intro-image img{
-    width:556.01px;
-    height:438px
+
+.intro-image img {
+    width: 556.01px;
+    height: 438px
 }
+
+
 /* End Header Area ❤️ */
 
 
-
 /* ------------ ⚠️ Starting of Player Area------------- */
- .players{
 
-     display: grid;
-     grid-template-columns: repeat(3, 300px);
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
     gap: 25px 20px;
     padding-top: 40px;
- }
- .player{
-
-    width: 290px;
-    box-shadow: 6px 8px 16px 6px rgba(0,0,0,0.2);
-    
- }
- .player-info h3{
-    padding-left: 15px;    
-     color: #18191F;
-     font-size: 26px;
-     position: relative;
-     line-height: 0px;
- 
-      
-    
-
 }
- .player-info p{
-     padding-left: 15px;    
-     color:#6C6C6C;
-     font-size: 16px;
-     font-weight: 26px;
- }
-.player img{
+
+.player {
+    width: 290px;
+    box-shadow: 6px 8px 16px 6px rgba(0, 0, 0, 0.2);
+}
+
+.player-info h3 {
+    padding-left: 15px;
+    color: #18191F;
+    font-size: 26px;
+    position: relative;
+    line-height: 0px;
+}
+
+.player-info p {
+    padding-left: 15px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 26px;
+}
+
+.player img {
     width: 260px;
     height: 200px;
-    
-   display: block;
-   padding:15px;
-   text-align: center;
-  
-    
+    display: block;
+    padding: 15px;
+    text-align: center;
 }
+
 
 /* --------------------❤️ End Of Player Section---------- */
 
+
 /* Extra Start ⚠️*/
-.location-details{
+
+.location-details {
     margin-top: 120px;
     text-align: center;
 }
-.location-details h1{
+
+.location-details h1 {
     letter-spacing: 5px;
 }
-.location-details h5{
+
+.location-details h5 {
     margin-top: -10px;
 }
-#fc{
+
+#fc {
     color: orange;
 }
-#fc-title{
-    color:darkmagenta;
+
+#fc-title {
+    color: darkmagenta;
 }
-.our-brand{display: flex; width:100% ;}
-.video{margin-left: 10px;} 
-.map{margin-left: 30px;}
+
+.our-brand {
+    display: flex;
+    width: 100%;
+}
+
+.video {
+    margin-left: 10px;
+}
+
+.map {
+    margin-left: 30px;
+}
 
 
 /* Extra End ❤️*/
 
 
 /* ⚠️ Starting Of footer Area */
-.footer-area{
+
+.footer-area {
     margin-top: 80px;
     text-align: center;
 }
-.footer-img img{
+
+.footer-img img {
     width: 483.87px;
     height: 113px;
 }
-.footer-social-link{
+
+.footer-social-link {
     display: flex;
     justify-content: center;
-    
 }
-.footer-social-link li{
+
+.footer-social-link li {
     font-size: 24px;
     color: #AAAAAA;
-    
     margin-right: 14px;
-  list-style: none;
+    list-style: none;
 }
-.footer-social-link{
+
+.footer-social-link {
     text-decoration: none !important;
 }
- 
+
+
 /* Ending Of footer Area ❤️*/
 
 
-   
+/*************************************************************
+                     ❌Style Css Ended❌
+   ***********************************************************/
