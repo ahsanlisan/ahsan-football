@@ -188,6 +188,7 @@ body {
 .our-brand {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .video {
