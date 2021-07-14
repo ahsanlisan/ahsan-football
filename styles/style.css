@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-/* Start Header Area */
+/* ⚠️ Start Header Area */
 .header_area{
     display: flex;
     background-color: #2D25A0;
@@ -22,7 +22,7 @@ body{
 .intro-text{
     
     width: 485px;
-    /* height: 230px; */
+     
 
 }
 .intro-text h1{
@@ -43,7 +43,7 @@ body{
  
  }
  
- /* Animating Hover effects of button */
+ /* Animating Hover effects on button Start ⚠️*/
 .btn {
     width: 220px;
     height: 50px;
@@ -97,17 +97,17 @@ body{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-/* Animating Hover Button End */
+/* Animating Hover Button End ❤️*/
  
 .intro-image img{
     width:556.01px;
     height:438px
 }
-/* End Header Area */
+/* End Header Area ❤️ */
 
 
 
-/* ------------Starting of Player Area------------- */
+/* ------------ ⚠️ Starting of Player Area------------- */
  .players{
 
      display: grid;
@@ -150,9 +150,9 @@ body{
     
 }
 
-/* --------------------End Of Player Section---------- */
+/* --------------------❤️ End Of Player Section---------- */
 
-/* Extra Start */
+/* Extra Start ⚠️*/
 .location-details{
     margin-top: 120px;
     text-align: center;
@@ -174,10 +174,10 @@ body{
 .map{margin-left: 30px;}
 
 
-/* Extra End */
+/* Extra End ❤️*/
 
 
-/* Starting Of footer Area */
+/* ⚠️ Starting Of footer Area */
 .footer-area{
     margin-top: 80px;
     text-align: center;
@@ -202,4 +202,7 @@ body{
     text-decoration: none !important;
 }
  
-/* Ending Of footer Area */
+/* Ending Of footer Area ❤️*/
+
+
+   
