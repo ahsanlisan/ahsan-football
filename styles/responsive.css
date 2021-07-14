@@ -69,14 +69,16 @@ height: auto;
         justify-content: center;
         height: auto;
             }
+            .intro-image img{
+                width: 100%;
+            }
             .players{
                 grid-template-columns: repeat(1, 1fr);
                 justify-items: center;
             }
-            .our-brand{
-                flex-direction: column;
-                align-items: center;
-            }
+             .footer-img img{
+                 width:100%;
+             }
 	 
 }
 
